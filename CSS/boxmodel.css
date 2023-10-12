@@ -11,10 +11,11 @@ body {
 
 div blockquote {
     background-color: #143843;
-    width: 50%;
+    width: 40%;
     border: 5px;
     padding: 2em;
     margin: 3em;
+    border: 3px solid white;
 }
 
 .two {
@@ -22,5 +23,5 @@ div blockquote {
 }
 
 .three {
-   margin-right: 5px;
+   margin-left: 50%;
 }
