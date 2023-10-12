@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.boxes {
+    background: black url(../afbeeldingen/bg.svg) no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+}
+
+div blockquote {
+    background-color: #143843;
+    width: 50%;
+    border: 5px;
+    padding: 2em;
+    margin: 3em;
+}
+
+.two {
+    margin: 0 25% 0 25%;
+}
+
+.three {
+   margin-right: 5px;
+}
