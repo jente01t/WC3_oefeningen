@@ -39,39 +39,49 @@ a:hover {
 }
 
 .home {
-    background: #fea500 url(../icons/home.png) no-repeat 20px center;
+    background: #fea500 url(../icons/home.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .home:hover {
-    background: black url(../icons/home_over.png) no-repeat 20px center;
-    background-size: 32px 32px;
+    background: black url(../icons/home_over.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .blog {
-    background: #fea500 url(../icons/blog.png) no-repeat 20px center;
+    background: #fea500 url(../icons/blog.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .blog:hover {
-    background: black url(../icons/blog_over.png) no-repeat 20px center;
-    background-size: 32px 32px;
+    background: black url(../icons/blog_over.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .learning {
-    background: #fea500 url(../icons/learn.png) no-repeat 20px center;
+    background: #fea500 url(../icons/learn.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .learning:hover {
-    background: black url(../icons/learn_over.png) no-repeat 20px center;
-    background-size: 32px 32px;
+    background: black url(../icons/learn_over.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
 }
 
 .discuss {
-    background: #fea500 url(../icons/discuss.png) no-repeat 20px center;
+    background: #fea500 url(../icons/discuss.png) no-repeat 25px center;
+    background-size: 25px 25px;
+    margin: 0 0 0 0px;
+}
+
+.discuss:hover {
+    background: black url(../icons/discuss_over.png) no-repeat 25px center;
+    background-size: 25px 25px;
     margin: 0 0 0 0px;
 }
