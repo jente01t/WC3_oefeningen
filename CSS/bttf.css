@@ -11,7 +11,7 @@ header {
     color: white;
     text-align: center;
     padding: 4em 3em 4em 3em;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
 }
 
 header h1 {
@@ -25,22 +25,20 @@ header p {
 
 h1, h2 {
     font-family: 'Suez One', serif;
-    margin: 0px; 
+}
+
+h2 {
+    margin: 4% 0 0 0;
 }
 
 p {
     margin-right: 20px;
 }
 
-.row {
-    
-}
-
 .featured-image {
     float: left;
-    margin: 0 1em 0 ;
+    margin: 4% 1em 2em ;
     border-radius: 0px;
-    box-sizing: content-box;
 }
 
 .publicatie {
@@ -59,4 +57,5 @@ p {
 
 hr {
     margin: 0 0 0em 0;
+    clear: both;
 }
