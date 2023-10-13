@@ -25,22 +25,28 @@ header p {
 
 h1, h2 {
     font-family: 'Suez One', serif;
-    margin: 0px;
+    margin: 0px; 
 }
 
+p {
+    margin-right: 20px;
+}
 
 .row {
-    display: flex;
+    
 }
 
 .featured-image {
     float: left;
-    margin: 0 1em;
+    margin: 0 1em 0 ;
+    border-radius: 0px;
+    box-sizing: content-box;
 }
 
 .publicatie {
     text-align: right;
     color: #9da9a3;
+    margin-right: 20px;
 }
 
 .publicatie i {
@@ -49,4 +55,8 @@ h1, h2 {
 
 .publicatie + p {
     text-indent: 2em;
+}
+
+hr {
+    margin: 0 0 0em 0;
 }
