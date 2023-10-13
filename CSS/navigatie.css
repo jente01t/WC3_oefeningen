@@ -9,13 +9,17 @@ ul {
     background-color: black;
     margin: 0;
     padding: 0;
-    border: 1px solid black ;
+    border: 1px solid black;
+}
+
+li {
+    background-color: #fea500;
 }
 
 a {
     background-color: #fea500;
     display: block;
-    margin: 0 0 0 0;
+    margin: 0 0 0 4em;
     padding: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -23,22 +27,51 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:hover {
+    background-color: black;
+    display: block;
+    margin: 0 0 0 4em;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .home {
-    background: #fea500 url(../icons/home.png) no-repeat left center;
-    margin: 0 0 2% 12%;
+    background: #fea500 url(../icons/home.png) no-repeat 20px center;
+    margin: 0 0px 1px 0px;
+}
+
+.home:hover {
+    background: black url(../icons/home_over.png) no-repeat 20px center;
+    background-size: 32px 32px;
+    margin: 0 0px 1px 0px;
 }
 
 .blog {
-    background: #fea500 url(../icons/blog.png) no-repeat left center;
-    margin: 0 0 0 12%;
+    background: #fea500 url(../icons/blog.png) no-repeat 20px center;
+    margin: 0 0px 1px 0px;
+}
+
+.blog:hover {
+    background: black url(../icons/blog_over.png) no-repeat 20px center;
+    background-size: 32px 32px;
+    margin: 0 0px 1px 0px;
 }
 
 .learning {
-    background: #fea500 url(../icons/learn.png) no-repeat left center;
-    margin: 0 0 0 12%;
+    background: #fea500 url(../icons/learn.png) no-repeat 20px center;
+    margin: 0 0px 1px 0px;
+}
+
+.learning:hover {
+    background: black url(../icons/learn_over.png) no-repeat 20px center;
+    background-size: 32px 32px;
+    margin: 0 0px 1px 0px;
 }
 
 .discuss {
-    background: #fea500 url(../icons/discuss.png) no-repeat left center;
-    margin: 0 0 0 12%;
+    background: #fea500 url(../icons/discuss.png) no-repeat 20px center;
+    margin: 0 0 0 0px;
 }
