@@ -1,0 +1,44 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+ul {
+    width: 14rem;
+    list-style: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black ;
+}
+
+a {
+    background-color: #fea500;
+    display: block;
+    margin: 0 0 0 0;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    background: #fea500 url(../icons/home.png) no-repeat left center;
+    margin: 0 0 2% 12%;
+}
+
+.blog {
+    background: #fea500 url(../icons/blog.png) no-repeat left center;
+    margin: 0 0 0 12%;
+}
+
+.learning {
+    background: #fea500 url(../icons/learn.png) no-repeat left center;
+    margin: 0 0 0 12%;
+}
+
+.discuss {
+    background: #fea500 url(../icons/discuss.png) no-repeat left center;
+    margin: 0 0 0 12%;
+}
