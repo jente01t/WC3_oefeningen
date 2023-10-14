@@ -14,6 +14,7 @@ figure img {
 figcaption {
     text-align: center;
     font-size: 1.5em;
-    font-weight: 550;
+    font-weight: bold;
     margin: 0.5em 0 0 0;
+    font-family: 'Tilt Neon', sans-serif;
 }
