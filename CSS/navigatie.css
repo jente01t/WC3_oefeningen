@@ -4,6 +4,7 @@ body {
 }
 
 ul {
+    display: block;
     width: 14rem;
     list-style: none;
     background-color: black;
