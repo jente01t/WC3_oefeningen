@@ -19,9 +19,10 @@ div blockquote {
 }
 
 .two {
-    margin: 0 25% 0 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .three {
-   margin-left: 50%;
+   margin-left: auto;
 }

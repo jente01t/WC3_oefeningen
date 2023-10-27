@@ -5,7 +5,7 @@ body {
 
 ul {
     display: block;
-    width: 14rem;
+    width: 11rem;
     list-style: none;
     background-color: black;
     margin: 0;
@@ -14,25 +14,25 @@ ul {
 }
 
 li {
+    display: block;
     background-color: #fea500;
+    margin: 0 0 1px 0;
+    text-align: center;
+    padding: 0.7em;
 }
 
 a {
-    background-color: #fea500;
     display: block;
     margin: 0 0 0 4em;
-    padding: 1em;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 2; /* Voeg line-height toe om tekst te centreren */
 }
 
 a:hover {
     background-color: black;
-    display: block;
-    margin: 0 0 0 4em;
-    padding: 1em;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -40,49 +40,45 @@ a:hover {
 }
 
 .home {
-    background: #fea500 url(../icons/home.png) no-repeat 25px center;
-    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
+    background: url(../icons/home.png) no-repeat 25px center, #fea500;
+    background-size: 25px 25px;
 }
 
 .home:hover {
-    background: black url(../icons/home_over.png) no-repeat 25px center;
+    background: url(../icons/home_over.png) no-repeat 25px center, black;
     background-size: 25px 25px;
-    margin: 0 0px 1px 0px;
 }
 
 .blog {
-    background: #fea500 url(../icons/blog.png) no-repeat 25px center;
-    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
+    background: url(../icons/blog.png) no-repeat 25px center, #fea500;
+    background-size: 25px 25px;
 }
 
 .blog:hover {
-    background: black url(../icons/blog_over.png) no-repeat 25px center;
+    background: url(../icons/blog_over.png) no-repeat 25px center, black;
     background-size: 25px 25px;
-    margin: 0 0px 1px 0px;
 }
 
 .learning {
-    background: #fea500 url(../icons/learn.png) no-repeat 25px center;
-    background-size: 25px 25px;
     margin: 0 0px 1px 0px;
+    background: url(../icons/learn.png) no-repeat 25px center, #fea500;
+    background-size: 25px 25px;
 }
 
 .learning:hover {
-    background: black url(../icons/learn_over.png) no-repeat 25px center;
+    background: url(../icons/learn_over.png) no-repeat 25px center, black;
     background-size: 25px 25px;
-    margin: 0 0px 1px 0px;
 }
 
 .discuss {
-    background: #fea500 url(../icons/discuss.png) no-repeat 25px center;
-    background-size: 25px 25px;
     margin: 0 0 0 0px;
+    background: url(../icons/discuss.png) no-repeat 25px center, #fea500;
+    background-size: 25px 25px;
 }
 
 .discuss:hover {
-    background: black url(../icons/discuss_over.png) no-repeat 25px center;
+    background: url(../icons/discuss_over.png) no-repeat 25px center, black;
     background-size: 25px 25px;
-    margin: 0 0 0 0px;
 }
